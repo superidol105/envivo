@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="csss.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <header>
+        <div class="main">
+          <div class="logo">
+            <img src="EN.png" width="200" height="40" >
+          </div>
+
+          <ul>
+            <li ><a href="pba-2_1.html"> Home </a></li>
+            <li class="active"><a href="pba-2_2.html"> Promotions </a></li>
+          </ul>
+        </div>
+        <div class="title">
+          <h1> EXPLORE! </h1>
+        </div>
+          <div class="buttons">
+          <a href="#s1" class="btn"> Outline </a>
+          <a href="#s2" class="btn"> Plans </a>
+          <a href="#s3" class="btn"> Materials </a>
+        </div>
+        
+    </header>
+
+    <div id="s1">
+        <div id="boxes">
+        
+            <div id="column1">
+                <img src="Stream outline.png" alt="">
+            </div>
+            <div id="column2">
+                <h2>Stream Outline</h2> 
+                <p>Our stream outline shows the idea of game that the streamers will play during stream. This outline might give the 
+                  streamers some advantage to get more audience since it looks cozy. The outline is achieving a clean 
+                  and not dark but not light vibe.</p>
+                  <br>
+                <p>This outline was made by the streamers.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="s2">
+        <section class="margin">
+            <h1> Promotional Plans </h1>
+            <p> 
+                Our promotional plan consists of (1) promoting our content, <br> (2) using social media as an alternative way
+                 to connect with various people, <br> (3) sending out copies of our flyers to attract interest, <br> and (4) letting our 
+                 relatives, friends and family to be involved in sharing our content.  
+                 <hr>
+            </p>
+        </section>
+        </div>
+
+    <div id="s3">
+        <div class="wrapper" >
+            <div class="left">
+                <div>
+                    <h1> Promotional Material </h1>
+                    <p>We encourage people to follow us on our social media accounts if they
+                      are interested in our content. <br> To get notified about what's coming, <br> please
+                      follow our Facebook page (En Vivo) <br> and our Instagram page (Team En Vivo);
+                      <br> and also subscribe to our YouTube channel (Team En Vivo IV).
+                    </p>
+                </div>
+            </div>
+                <div class="right"><img src="Stream Poster.png" alt="apec school logo">
+                </div>
+        </div>
+    </div>
+
+       <div class="footer">
+        <footer>
+          <h2> &copy; Team 5 - En Vivo </h2>
+        </footer>
+       </div>  
+
+          <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+  
+
+</body>
+</html>

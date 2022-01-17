@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Streaming</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+    <header>
+        <div class="main">
+          <div class="logo">
+            <img src="EN.png" width="200" height="40" >
+          </div>
+
+          <ul>
+            <li class="active"><a href="#"> Home </a></li>
+            <li><a href="pba-2_2.html"> Promotions </a></li>
+          </ul>
+        </div>
+        <div class="title">
+          <h1> EXPLORE! </h1>
+        </div>
+          <div class="buttons">
+          <a href="#s1" class="btn"> Team </a>
+          <a href="#s2" class="btn"> About </a>
+          <a href="#s3" class="btn"> Reason </a>
+        </div>
+        
+    </header>
+
+    <main>
+
+        <div class="wrap">
+        <div class="wrapper" id="s1">
+            <div class="left">
+                <div>
+                    <h1> Team 5 </h1>
+                    <p>We are En Vivo, composed of Grade 10 students from APEC Schools C. Raymundo. Influencing 
+                      modern trends and entertainment, as well as providing you new 
+                      content to enjoy and have fun! 
+                    </p>
+                </div>
+            </div>
+                <div class="right"><img src="apec.png" alt="apec school logo">
+                </div>
+        </div>
+        </div>
+        <div id="s2">
+        <div id="boxes">
+        
+            <div id="column1">
+                <img src="about-removebg-preview.png" alt="">
+                         </div>
+            <div id="column2">
+                <h2>About Us!</h2> 
+                <p>We are a group dedicated to give the best gaming experience for our viewers.
+                   Our streams serve the purpose of entertainment, fun, and relaxation to our audience.
+                   We are also open to be more socializing and interacting!</p>
+<br>
+                   So, we would like to introduce you to a new journey diving to many depths of gaming content!
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div id="s3">
+        <section class="margin">
+            <h1> Reason </h1>
+            <p> 
+                We decided to choose this type of content as it resonates with most of the youth nowadays.
+                <br> Being content creators, reaching out to our audience will give us new perspectives and creativity within our content.
+                <br> Also, doing it gives us new opportunities to strive and improve for the betterment of our team.
+                <br> And to finish it off, we would also like to chill and hangout as friends and socialize virtually. 
+                 <hr>
+            </p>
+        </section>
+        </div>
+        
+        <footer>
+          <h2> &copy; Team 5 - En Vivo </h2>
+        </footer>
+
+        <script>
+          //Get the button
+          var mybutton = document.getElementById("myBtn");
+          
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+          }
+          
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          </script>
+
+</body>
+</html>
